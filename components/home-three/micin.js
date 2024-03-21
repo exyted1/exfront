@@ -1,23 +1,216 @@
-/* eslint-disable react/no-unescaped-entities */
+import React, { useState } from "react";
+import Link from "next/link";
+import Slider from "react-slick";
 import CountUp from "react-countup";
-/* eslint-disable @next/next/no-img-element */
+
+
 export default function Micin() {
-	return (
-		<div className="fugu--roadmap-section">
-			<div className="container">
-				<div className="fugu--hero-content">
-				<div className="row mrright ">
-					<div className="col-xl-3 col-md-6">
-						<div className="wow fadeInUpX" data-wow-delay="0.30s">
-								<img src="/images/all-img/v3/minkmeme.png" alt="" />
-							</div>
+
+  const settings = {
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 5000,
+    cssEase: "linear",
+    pauseOnHover: true,
+    adaptiveHeight: true,
+    responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+    ],
+  };
+
+  return (
+    <div className="fugu--hero-section2">
+      <div className="container">
+        <div className="fugu--hero-content">
+		<div className="fugu--counter-wrap wow fadeInUpX" data-wow-delay="0.30s">
+						<div className="fugu--counter-data">
+							<h2>
+								<span data-percentage="100" className="fugu--counter">
+									<CountUp end={7777} />
+								</span>
+							</h2>
+							<p>
+								<strong> Exclusive NFT</strong>
+							</p>
 						</div>
 					</div>
-							<center><p className="wow fadeInUpX" data-wow-delay="0.10s">
-							mink space nft is an exclusive pfp collection that is a digital artwork consisting of 77 unique characters with a total limited supply of 7777 nfts. this nft is designed to be collectible and iconic to our community. as well as being an exclusive identity marker and serves as a tool to identify early contributors for our community, holders of this exclusive nft will receive a variety of special functions and benefits, given that they are a top priority for our community, these benefits may include exclusive access to additional features, financial benefits, privileges in community decisions, or other benefits designed to reward early contributors. by owning an exclusive nft, the minter not only acquires a unique piece of digital art, but also becomes part of an exclusive community that receives special benefits in the future.
-							</p></center>
+        </div>
+        <div className="fugu--slider-one">
+          <Slider {...settings}>
+		  <div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/1.jpg" alt="" />
+							</div>
 						</div>
-				</div>
-				</div>
-	);
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/2.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/3.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/4.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/5.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/6.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/7.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/8.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/9.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/10.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/11.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/12.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/13.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/14.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/15.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/16.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/17.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/18.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/19.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/20.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/21.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/22.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/23.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/24.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/25.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/26.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/27.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/28.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/29.jpg" alt="" />
+							</div>
+						</div>
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/all-img/nft/30.jpg" alt="" />
+							</div>
+						</div>
+          </Slider>
+		  <div className="fugu--default-content content-sm">
+            <center><p>
+			mink space nft is an exclusive pfp collection that is a digital artwork consisting of 77 unique characters with a total limited supply of 7777 nfts. this nft is designed to be collectible and iconic to our community. as well as being an exclusive identity marker and serves as a tool to identify early contributors for our community, holders of this exclusive nft will receive a variety of special functions and benefits, given that they are a top priority for our community, these benefits may include exclusive access to additional features, financial benefits, privileges in community decisions, or other benefits designed to reward early contributors. by owning an exclusive nft, the minter not only acquires a unique piece of digital art, but also becomes part of an exclusive community that receives special benefits in the future.
+            </p></center>
+          </div>
+        </div>
+      </div>
+      <div className="fugu--shape1">
+        <img src="/images/shape2/shape1.png" alt="" />
+      </div>
+
+      {/* Popup Video */}
+        </div>
+  );
 }

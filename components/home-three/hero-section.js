@@ -17,6 +17,13 @@ export default function HeroSection() {
 							interact synergistically.
 						</p>
 					</center>
+					<div className="row mrright ">
+					<div className="col-xl-3 col-md-6">
+						<div className="wow fadeInUpX" data-wow-delay="0.30s">
+								<img src="/images/all-img/v3/minkmeme.png" alt="" />
+							</div>
+						</div>
+					</div>
 					<div className="fugu--btn-wrap fugu--hero-btn wow fadeInUpX" data-wow-delay="0.20s">
 						<div className="fugu--btn-group">
 							<Link href={"#"} legacyBehavior>
@@ -25,18 +32,6 @@ export default function HeroSection() {
 							<Link href={"#"} legacyBehavior>
 								<a className="fugu--btn bg-gray">Lite Paper</a>
 							</Link>
-						</div>
-					</div>
-					<div className="fugu--counter-wrap wow fadeInUpX" data-wow-delay="0.30s">
-						<div className="fugu--counter-data">
-							<h2>
-								<span data-percentage="100" className="fugu--counter">
-									<CountUp end={7777} />
-								</span>
-							</h2>
-							<p>
-								<strong> Exclusive NFT</strong>
-							</p>
 						</div>
 					</div>
 				</div>

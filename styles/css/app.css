@@ -4713,7 +4713,7 @@ a.fugu-app-btn:last-child {
 	flex-direction: column;
     justify-content: center;
     align-items: center;
-	padding: 250px 0 120px;
+	padding: 150px 0 120px;
 	background-size: cover;
 	position: relative;
 	background-color: var(--gray-800);
@@ -4731,6 +4731,34 @@ a.fugu-app-btn:last-child {
 @media (max-width: 575px) {
 	.fugu--hero-section {
 		padding: 130px 0 80px;
+	}
+}
+
+
+.fugu--hero-section2 {
+	z-index: 0;
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	padding: 50px 0 120px;
+	background-size: cover;
+	position: relative;
+	background-color: var(--gray-800);
+}
+@media (max-width: 991px) {
+	.fugu--hero-section2 {
+		padding: 175px 0 100px;
+	}
+}
+@media (max-width: 767px) {
+	.fugu--hero-section2 {
+		padding: 150px 0 80px;
+	}
+}
+@media (max-width: 575px) {
+	.fugu--hero-section2 {
+		padding: 50px 0 80px;
 	}
 }
 
@@ -4917,27 +4945,6 @@ a.fugu-app-btn:last-child {
 	}
 }
 
-.fugu--hero-section2 {
-	z-index: 0;
-	padding: 230px 0 235px;
-	position: relative;
-	background-color: var(--warning-600);
-}
-@media (max-width: 1199px) {
-	.fugu--hero-section2 {
-		padding: 150px 0 120px;
-	}
-}
-@media (max-width: 767px) {
-	.fugu--hero-section2 {
-		padding: 150px 0 80px;
-	}
-}
-@media (max-width: 479px) {
-	.fugu--hero-section2 {
-		padding: 120px 0 80px;
-	}
-}
 
 .fugu--hero-content2 {
 	max-width: 760px;

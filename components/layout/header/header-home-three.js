@@ -40,15 +40,15 @@ export default function HeaderHomeThree() {
 							</div>
 
 							<Navbar>
-            <a href="/#" className="nav-link2">Home</a>
-            <a href="/#" className="nav-link2">Staking</a>
-            <a href="/#" className="nav-link2">Minting</a>
-            <a href="/#" className="nav-link2">Docs</a>
+            <a href="/" className="nav-link2">Home</a>
+            <a href="https://staking.minkspace.com" className="nav-link2">Staking</a>
+            <a href="https://mint.minkspace.com" className="nav-link2">Minting</a>
+            <a href="https://paper.minkspace.com" className="nav-link2">Litepaper</a>
           </Navbar>
 						</nav>
 					</div>
 					<div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-						<a className="fugu--btn fugu--menu-btn1" href="contact.html">
+						<a className="fugu--btn fugu--menu-btn1" href="https://staking.minkspace.com">
 							Launch App
 						</a>
 					</div>

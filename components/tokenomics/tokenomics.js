@@ -46,13 +46,7 @@ export default function Statistics  () {
             </div>
             <div className="col-md-6">
               <div className="tokenomics_content_right" >
-              <Chart
-      chartType="PieChart"
-      data={data2}
-      options={options}
-      width={"100%"}
-      height={"400px"}
-    />
+              <img src="/images/all-img/v3/tokenomics.png" alt="" />
               </div>
             </div>
           </div>

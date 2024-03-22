@@ -26,11 +26,11 @@ export default function HeroSection() {
 					</div>
 					<div className="fugu--btn-wrap fugu--hero-btn wow fadeInUpX" data-wow-delay="0.20s">
 						<div className="fugu--btn-group">
-							<Link href={"#"} legacyBehavior>
+							<Link href="https://staking.minkspace.com/" legacyBehavior>
 								<a className="fugu--btn bg-gray active">Launch App</a>
 							</Link>
-							<Link href={"#"} legacyBehavior>
-								<a className="fugu--btn bg-gray">Lite Paper</a>
+							<Link href="https://paper.minkspace.com/" legacyBehavior>
+								<a  className="fugu--btn bg-gray">Lite Paper</a>
 							</Link>
 						</div>
 					</div>

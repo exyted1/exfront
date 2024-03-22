@@ -201,7 +201,7 @@ export default function Micin() {
           </Slider>
 		  <div className="fugu--default-content content-sm">
             <center><p>
-			mink space nft is an exclusive pfp collection that is a digital artwork consisting of 77 unique characters with a total limited supply of 7777 nfts. this nft is designed to be collectible and iconic to our community. as well as being an exclusive identity marker and serves as a tool to identify early contributors for our community, holders of this exclusive nft will receive a variety of special functions and benefits, given that they are a top priority for our community, these benefits may include exclusive access to additional features, financial benefits, privileges in community decisions, or other benefits designed to reward early contributors. by owning an exclusive nft, the minter not only acquires a unique piece of digital art, but also becomes part of an exclusive community that receives special benefits in the future.
+			this is an exclusive NFT collections consisting of 777 unique characters with a total limited supply of 7777 nfts, designed to be collectible and iconic to our community. as well as being an exclusive identity marker, the exclusive nft also serves as a tool to identify early contributors to our project and holders of this exclusive nft will receive a variety of special functions and benefits, given that they are a top priority for our community.
             </p></center>
           </div>
         </div>

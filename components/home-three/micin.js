@@ -33,6 +33,20 @@ export default function Micin() {
     <div className="fugu--hero-section2">
       <div className="container">
         <div className="fugu--hero-content">
+		<div className="row mrright2 ">
+					<div className="col-xl-3 col-md-6">
+						<div className="wow fadeInUpX" data-wow-delay="0.30s">
+								<img src="/images/all-img/v3/minknft.png" alt="" />
+							</div>
+						</div>
+					</div>
+					<div className="fugu--btn-wrap fugu--hero-btn wow fadeInUpX" data-wow-delay="0.20s">
+						<div className="fugu--btn-group">
+							<Link href="https://mint.minkspace.com/" legacyBehavior>
+								<a className="fugu--btn bg-gray active">Mint Now</a>
+							</Link>
+						</div>
+					</div>
 		<div className="fugu--counter-wrap wow fadeInUpX" data-wow-delay="0.30s">
 						<div className="fugu--counter-data">
 							<h2>

@@ -5981,6 +5981,30 @@ a.fugu-app-btn:last-child {
 		margin-right: 0vh;
 	}
 }
+
+.mrright2 {
+	align-items: center;
+	justify-content: center;
+}
+.mrright2 img{
+	min-width: 600px;
+	margin-left: -20vh;
+}
+@media (max-width: 767px) {
+	.mrright2 {
+		margin-right: 0vh;
+	}
+	.mrright2 img{
+		min-width: 350px;
+		margin-left: -140px;
+	}
+}
+@media (max-width: 991px) {
+	.mrright2 {
+		margin-left: 18vh;
+	}
+}
+
 .fugu--iconbox-data h4 {
 	font-weight: 600;
 	font-size: 24px;

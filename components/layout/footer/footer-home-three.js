@@ -14,23 +14,18 @@ export default function FooterHomeThree() {
 								<div className="fugu--social-icon">
 									<ul>
 										<li>
-											<Link href="#">
-												<img src="/images/social2/twitter.svg" alt="" />
+											<Link href="https://twitter.com/minkspace_com">
+												<img src="/images/social2/x.jpg" alt="" />
 											</Link>
 										</li>
 										<li>
-											<Link href="#">
-												<img src="/images/social2/facebook.svg" alt="" />
+											<Link href="https://t.me/minkspace_com">
+												<img src="/images/social2/telegram.svg" alt="" />
 											</Link>
 										</li>
 										<li>
-											<Link href="#">
-												<img src="/images/social2/instagram.svg" alt="" />
-											</Link>
-										</li>
-										<li>
-											<Link href="#">
-												<img src="/images/social2/github.svg" alt="" />
+											<Link href="https://paper.minkspace.com/">
+												<img src="/images/social2/gitbook.jpg" alt="" />
 											</Link>
 										</li>
 									</ul>

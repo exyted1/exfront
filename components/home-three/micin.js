@@ -33,8 +33,15 @@ export default function Micin() {
     <div className="fugu--hero-section2">
       <div className="container">
         <div className="fugu--hero-content">
+		<div className="fugu--counter-wrap2 wow fadeInUpX" data-wow-delay="0.30s">
+						<div className="fugu--counter-data2">
+							<p>
+								<strong>MINK CARDS</strong>
+							</p>
+						</div>
+					</div>
 		<div className="row mrright2 ">
-					<div className="col-xl-3 col-md-6">
+					<div className="col-xl-3 col-md-5">
 						<div className="wow fadeInUpX" data-wow-delay="0.30s">
 								<img src="/images/all-img/v3/minknft.png" alt="" />
 							</div>

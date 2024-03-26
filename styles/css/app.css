@@ -5292,6 +5292,12 @@ a.fugu-app-btn:last-child {
 	margin: 0;
 	margin-left: 10px;
 }
+.fugu--counter-data2 p {
+	font-size: 35px;
+	line-height: 30px;
+	margin: 0;
+	margin-left: 10px;
+}
 
 @media (max-width: 991px) {
 	.fugu--counter-wrap2 {

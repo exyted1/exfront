@@ -42,7 +42,14 @@ export default function CardSliderOne() {
  collectible assets, but also assets that can provide significant economic value benefits to
  their holders in the long term.
             </p>
-            <div className="animate-video">
+          </div>
+        </div>
+      </div>
+      <div className="fugu--shape1">
+        <img src="/images/shape2/shape1.png" alt="" />
+      </div>
+
+      {/* <div className="animate-video">
             <iframe style={{
                 borderRadius: "15px",
                 boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
@@ -55,15 +62,7 @@ export default function CardSliderOne() {
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-          </div>
-          </div>
-        </div>
-      </div>
-      <div className="fugu--shape1">
-        <img src="/images/shape2/shape1.png" alt="" />
-      </div>
-
-      {/* Popup Video */}
+          </div> */}
         </div>
   );
 }

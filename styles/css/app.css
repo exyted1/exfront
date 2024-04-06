@@ -420,6 +420,7 @@ h4,
 	line-height: 30px;
 	margin-bottom: 15px;
 	font-weight: 600;
+	color: white;
 }
 
 h5,
@@ -11966,7 +11967,7 @@ circle {
     align-items: center;
     justify-content: center;
     margin-left: 70vh;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .center2 {
     align-items: center;
@@ -11980,7 +11981,7 @@ circle {
       align-items: center;
       justify-content: center;
       margin-left: 12vh;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
     }
   }
 

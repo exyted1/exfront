@@ -36,7 +36,7 @@ export default function Micin() {
 		<div className="fugu--counter-wrap2 wow fadeInUpX" data-wow-delay="0.30s">
 						<div className="fugu--counter-data2">
 							<p>
-								<strong>MINK CARDS</strong>
+								<strong>SPACE CARDS</strong>
 							</p>
 						</div>
 					</div>
@@ -49,7 +49,7 @@ export default function Micin() {
 					</div>
 					<div className="fugu--btn-wrap fugu--hero-btn wow fadeInUpX" data-wow-delay="0.20s">
 						<div className="fugu--btn-group">
-							<Link href="https://mint.minkspace.com/" legacyBehavior>
+							<Link href="https://comingsoon.minkspace.com/" legacyBehavior>
 								<a className="fugu--btn bg-gray active">Mint Now</a>
 							</Link>
 						</div>
@@ -222,7 +222,7 @@ export default function Micin() {
           </Slider>
 		  <div className="fugu--default-content content-sm">
             <center><p>
-			this is an exclusive NFT collections consisting of 777 unique characters with a total limited supply of 7777 nfts, designed to be collectible and iconic to our community. as well as being an exclusive identity marker, the exclusive nft also serves as a tool to identify early contributors to our project and holders of this exclusive nft will receive a variety of special functions and benefits, given that they are a top priority for our community.
+			This is an exclusive NFT art collection consisting of 7777 unique characters in the form of pfp arts with a total limited supply of 7777 NFTs, designed to be collectible and iconic for our community. holders of these exclusive nfts will receive various special functions and benefits, and are a top priority in our project.
             </p></center>
           </div>
         </div>

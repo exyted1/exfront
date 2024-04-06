@@ -12,9 +12,7 @@ export default function HeroSection() {
 					</h2>
 					<center>
 						<p className="wow fadeInUpX" data-wow-delay="0.10s">
-							Minkspace is a new step in the evolution of meme coins that collaborates the concept of a
-							meme coin with an NFT art to create an ecosystem where both reinforce each other and
-							interact synergistically.
+						Minkspace is a staking nft platform with mink coin as utility token for create the new step in the evolution of meme coins that collaborates the concept of a meme coin with an NFT art to create an ecosystem where both reinforce each other and interact synergistically.
 						</p>
 					</center>
 					<div className="row mrright ">

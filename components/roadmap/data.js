@@ -24,11 +24,19 @@ export default {
             },
             {
               icon: checkIcon,
-              text: " Nft launchpad started",
+              text: "Telegram community opened",
             },
             {
               icon: checkIcon,
-              text: " Staking feature opened",
+              text: "Airdrop campaign",
+            },
+            {
+              icon: checkIcon,
+              text: "Public mint for Space cards nft",
+            },
+            {
+              icon: checkIcon,
+              text: "Staking feature opened",
             },
           ],
         },
@@ -38,7 +46,7 @@ export default {
           checkList: [
             {
               icon: checkIcon,
-              text: " Mink coin launchpad on one of the global exchanges",
+              text: "Mink coin presale started",
             },
             {
               icon: checkIcon,
@@ -50,11 +58,7 @@ export default {
             },
             {
               icon: minusIcon,
-              text: " Mink coin airdrop",
-            },
-            {
-              icon: minusIcon,
-              text: "Simultaneous trading opened",
+              text: "airdrop distribution",
             },
           ],
         },
@@ -65,6 +69,10 @@ export default {
             {
               icon: checkIcon,
               text: "Mink coin listing on cmc & cgc",
+            },
+            {
+              icon: minusIcon,
+              text: "Launchpad for Mink space exclusive nft",
             },
             {
               icon: checkIcon,

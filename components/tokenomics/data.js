@@ -1,28 +1,28 @@
 
 const data = [
     {
-        title: "Airdrop &Marketing",
-        value: "10.00%"
+        title: "Airdrop",
+        value: "5.00%"
     },
     {
-        title: "Cex & Partner",
-        value: "10.00%"
+        title: "Cex ",
+        value: "5.00%"
     },
     {
-        title: "NFT Contributor",
+        title: "Card Holder",
         value: "10.00%"
     },
     {
         title: "Liquidity",
-        value: "10.00%"
+        value: "20.00%"
     },
     {
-        title: "Launchpad",
-        value: "20%"
+        title: "Presale",
+        value: "30%"
     },
     {
-        title: "NFT Staking",
-        value: "40.00%"
+        title: "Staking",
+        value: "30.00%"
     },
 ]
 

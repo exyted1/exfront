@@ -4786,7 +4786,7 @@ a.fugu-app-btn:last-child {
 	}
 }
 .fugu--hero-content p {
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 32px;
 	letter-spacing: -0.5px;
 	margin-right: 80px;
@@ -8140,6 +8140,7 @@ a.fugu-pricing-btn.active {
 }
 .fugu--default-content p {
 	color: #fff;
+	font-size: 17px;
 }
 @media (max-width: 767px) {
 	.fugu--default-content p {
@@ -11814,26 +11815,26 @@ circle {
       left: 0;
       top: 9px;
       content: "";
-      background: #ff02d3;
+      background: #0057ff;
     }
     &:nth-child(2) {
       &::before {
-        background: #9400ff;
+        background: #8a15ff;
       }
     }
     &:nth-child(3) {
       &::before {
-        background: #6265ff;
+        background: #ff02d3;
       }
     }
     &:nth-child(4) {
       &::before {
-        background: #65a6fa;
+        background: #00ff21;
       }
     }
     &:nth-child(5) {
       &::before {
-        background: #78ff01;
+        background: #01ffe8;
       }
     }
     &:nth-child(6) {
@@ -11872,8 +11873,8 @@ circle {
   .tokenomics_content_right {
     backdrop-filter: blur(5px);
     max-width: 500px;
-    width: 100%;
-    height: 350px;
+    width: 75%;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11881,6 +11882,7 @@ circle {
 
   @media only screen and (max-width: 767px) {
     .tokenomics_content_right {
+	width: 100%;
       margin-top: 0px;
     }
     .center {

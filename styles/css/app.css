@@ -2705,17 +2705,17 @@ footer.fugu--footer-section {
 }
 @media (max-width: 991px) {
 	.fugu--footer-top {
-		padding: 100px 0 30px;
+		padding: 10px 0 30px;
 	}
 }
 @media (max-width: 767px) {
 	.fugu--footer-top {
-		padding: 80px 0 15px;
+		padding: 10px 0 15px;
 	}
 }
 @media (max-width: 575px) {
 	.fugu--footer-top {
-		padding: 80px 0 0;
+		padding: 10px 0 0;
 	}
 }
 
@@ -4784,6 +4784,11 @@ a.fugu-app-btn:last-child {
 @media (max-width: 767px) {
 	.fugu--hero-content {
 		max-width: 500px;
+	}
+	h4 {
+		font-size: 16px;
+		line-height: 10px;
+		font-weight: 400;
 	}
 }
 .fugu--hero-content p {
@@ -8026,7 +8031,7 @@ a.fugu-pricing-btn.active {
 }
 
 .fugu--section-padding {
-	padding: 50px 0 40px;
+	padding: 30px 0 5px;
 }
 @media (max-width: 991px) {
 	.fugu--section-padding {
@@ -8070,18 +8075,18 @@ a.fugu-pricing-btn.active {
 .fugu--section-title {
 	max-width: 708px;
 	text-align: center;
-	margin: 0 auto 75px;
+	margin: 0 auto 5px;
 }
 @media (max-width: 991px) {
 	.fugu--section-title {
-		margin: 0 auto 50px;
+		margin: 0 auto 5px;
 	}
 }
 .fugu--section-title h2 {
 	font-family: "Space Grotesk", sans-serif;
 }
 .fugu--section-title .fugu--default-content p {
-	padding: 0 20px;
+	padding: 0 5px;
 }
 @media (max-width: 767px) {
 	.fugu--section-title .fugu--default-content p {

@@ -22,8 +22,15 @@ export default function Micin() {
       {
         breakpoint: 1400,
         settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+        },
+      },
+	  {
+        breakpoint: 768,
+        settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
         },
       },
     ],
@@ -40,8 +47,8 @@ export default function Micin() {
 							</p>
 						</div>
 					</div>
-		<div className="row mrright2 ">
-					<div className="col-xl-3 col-md-5">
+		<div className="mrright2">
+					<div className="col-md-5">
 						<div className="wow fadeInUpX" data-wow-delay="0.30s">
 								<img src="/images/all-img/v3/minknft.png" alt="" />
 							</div>

@@ -23,7 +23,7 @@ export default function Statistics  () {
     <div className="fugu--slider-section">
       <div className="container">
       <h2 className="center">Tokenomics</h2>
-      <center><h4>Total supply : 100.000.000.000.000
+      <center><h4>Total supply : 10.000.000.000.000
 							</h4></center>
         <div className="tokenomics_content">
           <div className="row">

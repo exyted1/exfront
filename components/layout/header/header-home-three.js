@@ -42,7 +42,7 @@ export default function HeaderHomeThree() {
 							<Navbar>
             <a href="/" className="nav-link2">Home</a>
             <a href="https://staking.minkspace.com" className="nav-link2">Staking</a>
-            <a href="https://comingsoon.minkspace.com" className="nav-link2">Minting</a>
+            <a href="https://mint.minkspace.com" className="nav-link2">Minting</a>
             <a href="https://paper.minkspace.com" className="nav-link2">Litepaper</a>
           </Navbar>
 						</nav>

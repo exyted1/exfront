@@ -56,7 +56,7 @@ export default function Micin() {
 					</div>
 					<div className="fugu--btn-wrap fugu--hero-btn wow fadeInUpX" data-wow-delay="0.20s">
 						<div className="fugu--btn-group">
-							<Link href="https://comingsoon.minkspace.com/" legacyBehavior>
+							<Link href="https://mint.minkspace.com/" legacyBehavior>
 								<a className="fugu--btn bg-gray active">Mint Now</a>
 							</Link>
 						</div>

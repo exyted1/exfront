@@ -11822,11 +11822,11 @@ circle {
       left: 0;
       top: 9px;
       content: "";
-      background: #0057ff;
+      background: #9400ff;
     }
     &:nth-child(2) {
       &::before {
-        background: #8a15ff;
+        background: #de4f45;
       }
     }
     &:nth-child(3) {
@@ -11836,22 +11836,22 @@ circle {
     }
     &:nth-child(4) {
       &::before {
-        background: #00ff21;
+        background: #3301ff;
       }
     }
     &:nth-child(5) {
       &::before {
-        background: #01ffe8;
+        background: #ffae64;
       }
     }
     &:nth-child(6) {
       &::before {
-        background: #01ffe8;
+        background: #8ded03;
       }
     }
     &:nth-child(7) {
       &::before {
-        background: #841183;
+        background: #03ffd2;
       }
     }
   }

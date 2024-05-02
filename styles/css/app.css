@@ -11831,25 +11831,20 @@ circle {
     }
     &:nth-child(3) {
       &::before {
-        background: #ff02d3;
+        background: #3301ff;
       }
     }
     &:nth-child(4) {
       &::before {
-        background: #3301ff;
+        background: #ff02d3;
       }
     }
     &:nth-child(5) {
       &::before {
-        background: #ffae64;
-      }
-    }
-    &:nth-child(6) {
-      &::before {
         background: #8ded03;
       }
     }
-    &:nth-child(7) {
+    &:nth-child(6) {
       &::before {
         background: #03ffd2;
       }
@@ -11881,7 +11876,7 @@ circle {
     backdrop-filter: blur(5px);
     max-width: 500px;
     width: 75%;
-    height: 400px;
+    height: 430px;
     display: flex;
     align-items: center;
     justify-content: center;

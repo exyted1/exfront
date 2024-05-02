@@ -9,10 +9,6 @@ const data = [
         value: "5.00%"
     },
     {
-        title: "NFT Holder",
-        value: "10.00%"
-    },
-    {
         title: "Liquidity",
         value: "10.00%"
     },
@@ -21,12 +17,12 @@ const data = [
         value: "10.00%"
     },
     {
-        title: "Token Slae",
+        title: "Token Sale",
         value: "30.00%"
     },
     {
         title: "Staking Pool",
-        value: "30%"
+        value: "40%"
     },
 ]
 

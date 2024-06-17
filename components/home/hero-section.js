@@ -29,8 +29,8 @@ export default function HeroSection() {
 							<Link href="https://staking.minkspace.com/" legacyBehavior>
 								<a className="fugu--btn bg-gray active">Launch App</a>
 							</Link>
-							<Link href="https://paper.minkspace.com/" legacyBehavior>
-								<a  className="fugu--btn bg-gray active">Fairlauch</a>
+							<Link href="https://www.pinksale.finance/solana/launchpad/9nAFikRNTRwqaFvt2V6N4FCQ5GS7thTPHLqbsfMPjKoM" legacyBehavior>
+								<a  className="fugu--btn bg-gray active">Join Fairlauch</a>
 							</Link>
 						</div>
 					</div>

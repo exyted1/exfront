@@ -7,6 +7,7 @@ import RoadMap from "../components/roadmap/roadmap";
 import CardSliderTwo from "../components/common/sliders/card/card-slider-two";
 import NftRoadMap from "../components/home/nft-roadmap";
 import Micin from "../components/home/micin";
+import Audit from "../components/home/audit";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
 			<Micin />
 			<NftRoadMap />
 			<CardSliderOne />
+			<Audit />
 			<Statistics />
 			<RoadMap />
 			<CardSliderTwo />

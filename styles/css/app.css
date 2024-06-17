@@ -6003,10 +6003,33 @@ a.fugu-app-btn:last-child {
     width: 1700px;
 }
 
+.banner {
+	margin-top: -55px;
+	margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    border-radius: 30px;
+}
+
 @media (max-width: 767px) {
     .mrright2 img {
         width: 350px;
     }
+	.banner {
+		margin-top: -40px;
+		margin-bottom: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.banner img {
+		border-radius: 20px;
+	}
 }
 
 @media (max-width: 991px) {
@@ -6014,6 +6037,10 @@ a.fugu-app-btn:last-child {
         margin-left: auto;
         margin-right: auto;
     }
+	.banner {
+		margin-left: auto;
+        margin-right: auto;
+	}
 }
 
 

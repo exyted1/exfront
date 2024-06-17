@@ -48,7 +48,7 @@ export default function Audit() {
         </div>
         <div className="fugu--slider-one">
           <Slider {...settings}>
-          <a href="https://www.pinksale.finance/solana/launchpad/9nAFikRNTRwqaFvt2V6N4FCQ5GS7thTPHLqbsfMPjKoM" target="_blank">
+          <a href="https://www.pinksale.finance" target="_blank">
 						<div className="fugu--card-wrap">
 							<div className="fugu--card-thumb">
 								<img src="/images/partnerts/pinksale.png" alt="" />

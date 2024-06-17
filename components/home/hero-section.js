@@ -16,15 +16,15 @@ export default function HeroSection() {
 					</div>
 					</a>
 				<div className="fugu--hero-content">
-					<h2 className="wow fadeInUpX mt" data-wow-delay="0.10s">
+					<h2 className="wow fadeInUpX banner2" data-wow-delay="0.10s">
 						IT'S TIME FOR MEME COIN TO EVOLVE
 					</h2>
 					<center>
-						<p className="wow fadeInUpX" data-wow-delay="0.10s">
+						<p className="wow fadeInUpX banner2" data-wow-delay="0.10s">
 						Minkspace is a NFT staking platform with mink coin as utility token for create the new step in the evolution of meme coins that collaborates the concept of a meme coin with an NFT art to create an ecosystem where both reinforce each other and interact synergistically.
 						</p>
 					</center>
-					<div className="fugu--btn-wrap fugu--hero-btn wow fadeInUpX" data-wow-delay="0.20s">
+					<div className="fugu--btn-wrap fugu--hero-btn wow fadeInUpX banner2" data-wow-delay="0.20s">
 						<div className="fugu--btn-group">
 							<Link href="https://staking.minkspace.com/" legacyBehavior>
 								<a className="fugu--btn bg-gray active">Launch App</a>

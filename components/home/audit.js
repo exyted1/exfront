@@ -42,11 +42,7 @@ export default function Audit() {
         <div className="fugu--hero-content">
 		<div className="fugu--counter-wrap wow fadeInUpX" data-wow-delay="0.30s">
 						<div className="fugu--counter-data">
-							<h2>
-								<span data-percentage="100" className="fugu--counter">
-                                OUR PARTNERS
-								</span>
-							</h2>
+							<h2>PARTNERS</h2>
 						</div>
 					</div>
         </div>

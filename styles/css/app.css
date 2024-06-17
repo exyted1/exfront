@@ -5280,7 +5280,7 @@ a.fugu-app-btn:last-child {
 }
 
 .fugu--counter-data h2 {
-	font-size: 32px;
+	font-size: 48px;
 	line-height: 1;
 	color: white;
 }
@@ -6004,7 +6004,7 @@ a.fugu-app-btn:last-child {
 }
 
 .banner {
-	margin-top: -55px;
+	margin-top: -50px;
 	margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -8634,7 +8634,7 @@ a.fugu-pricing-btn.active {
 }
 
 .fugu--roadmap-section {
-	padding: 115px 0 80px;
+	padding: 5px 0 80px;
 	background-color: var(--gray-800);
 }
 @media (max-width: 991px) {

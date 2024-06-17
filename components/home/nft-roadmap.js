@@ -4,6 +4,13 @@ export default function NftRoadMap() {
 	return (
 		<div className="fugu--roadmap-section">
 			<div className="container">
+			<div className="row mrright2 mt2">
+					<div className="col-xl-3 col-md-6">
+						<div className="wow fadeInUpX" data-wow-delay="0.30s">
+								<img src="/images/all-img/v3/minkmeme.png" alt="" />
+							</div>
+						</div>
+					</div>
 				<div className="fugu--section-title">
 					<div className="fugu--default-content content-sm">
 						<h2>How to get started?</h2>

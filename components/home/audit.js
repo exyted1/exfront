@@ -50,7 +50,7 @@ export default function Audit() {
           <Slider {...settings}>
           <a href="https://www.pinksale.finance" target="_blank">
 						<div className="fugu--card-wrap">
-							<div className="fugu--card-thumb">
+							<div className="fugu--card-thumb"   >
 								<img src="/images/partnerts/pinksale.png" alt="" />
 							</div>
 						</div>

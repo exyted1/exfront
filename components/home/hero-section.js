@@ -6,15 +6,6 @@ export default function HeroSection() {
 		<div className="fugu--hero-section" style={{ backgroundImage: "url(/images/all-img/v3/hero-bg.png)" }}>
 			<div id="fugu--counter"></div>
 			<div className="container">
-			<a href="https://www.pinksale.finance/solana/launchpad/9nAFikRNTRwqaFvt2V6N4FCQ5GS7thTPHLqbsfMPjKoM" target="_blank">
-			<div className="row banner">
-					<div className="col-xl-9 col-md-6">
-						<div className="wow fadeInUpX" data-wow-delay="0.30s">
-								<img src="/images/all-img/v3/banner.png" alt="" />
-							</div>
-						</div>
-					</div>
-					</a>
 				<div className="fugu--hero-content">
 					<h2 className="wow fadeInUpX banner2" data-wow-delay="0.10s">
 						IT'S TIME FOR MEME COIN TO EVOLVE
@@ -24,13 +15,20 @@ export default function HeroSection() {
 						Minkspace is a NFT staking platform with mink coin as utility token for create the new step in the evolution of meme coins that collaborates the concept of a meme coin with an NFT art to create an ecosystem where both reinforce each other and interact synergistically.
 						</p>
 					</center>
+					<div className="row mrright2 mt2">
+					<div className="col-xl-3 col-md-6">
+						<div className="wow fadeInUpX" data-wow-delay="0.30s">
+								<img src="/images/all-img/v3/minkmeme.png" alt="" />
+							</div>
+						</div>
+					</div>
 					<div className="fugu--btn-wrap fugu--hero-btn wow fadeInUpX banner2" data-wow-delay="0.20s">
 						<div className="fugu--btn-group">
 							<Link href="https://staking.minkspace.com/" legacyBehavior>
 								<a className="fugu--btn bg-gray active">Launch App</a>
 							</Link>
-							<Link href="https://www.pinksale.finance/solana/launchpad/9nAFikRNTRwqaFvt2V6N4FCQ5GS7thTPHLqbsfMPjKoM" legacyBehavior>
-								<a  className="fugu--btn bg-gray active">Join Fairlauch</a>
+							<Link href="https://paper.minkspace.com" legacyBehavior>
+								<a  className="fugu--btn bg-gray active">Litepaper</a>
 							</Link>
 						</div>
 					</div>

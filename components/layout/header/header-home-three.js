@@ -48,8 +48,8 @@ export default function HeaderHomeThree() {
 						</nav>
 					</div>
 					<div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-						<a className="fugu--btn fugu--menu-btn1" href="https://www.pinksale.finance/solana/launchpad/9nAFikRNTRwqaFvt2V6N4FCQ5GS7thTPHLqbsfMPjKoM">
-							Join Fairlauch
+						<a className="fugu--btn fugu--menu-btn1" href="https://staking.minkspace.com/">
+							Launch App
 						</a>
 					</div>
 					<div className="mobile-menu-trigger" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>

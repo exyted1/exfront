@@ -69,6 +69,13 @@ export default function Audit() {
 							</div>
 						</div>
             </a>
+            < a href="https://dexscreener.com/solana/g8pwgrujuxluvq4yrbxyfbwfjliyipkzjadeot5nzu3k" target="_blank">
+						<div className="fugu--card-wrap">
+							<div className="fugu--card-thumb">
+								<img src="/images/partnerts/dexscreener.png" alt="" />
+							</div>
+						</div>
+            </a>
           </Slider>
         </div>
       </div>

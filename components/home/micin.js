@@ -65,7 +65,7 @@ export default function Micin() {
 						<div className="fugu--counter-data">
 							<h2>
 								<span data-percentage="100" className="fugu--counter">
-									<CountUp end={7777} />
+									<CountUp end={3333} />
 								</span>
 							</h2>
 							<p>
@@ -229,7 +229,7 @@ export default function Micin() {
           </Slider>
 		  <div className="fugu--default-content content-sm">
             <center><p>
-			This is an exclusive NFT art collection consisting of 7777 unique characters in the form of pfp arts with a total limited supply of 7777 NFTs, designed to be collectible and iconic for our community. holders of these exclusive nfts will receive various special functions and benefits, and are a top priority in our project.
+			This is an exclusive NFT art collection consisting of 3333 unique characters in the form of pfp arts with a total limited supply of 3333 NFTs, designed to be collectible and iconic for our community. holders of these exclusive nfts will receive various special functions and benefits, and are a top priority in our project.
             </p></center>
           </div>
         </div>
